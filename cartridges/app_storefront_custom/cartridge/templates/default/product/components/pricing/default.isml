@@ -32,4 +32,5 @@
         <isinclude template="/product/components/pricing/formatted" />
         </span>
     </span>
+    <isinclude template="/product/components/pricing/bestDeal" />
 </span>
