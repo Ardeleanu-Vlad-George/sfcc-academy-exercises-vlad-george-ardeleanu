@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-objects xmlns="http://www.demandware.com/xml/impex/customobject/2006-10-31">
+    <custom-object type-id="NewsletterSubscription" object-id="3ca74789ca0062d186ebe1af61"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="9450b25a49039cd1c50267ba99"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="065618fe67ae66eed0016430ab"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="2b3f99860108441a80dcbc2e09">
+        <object-attribute attribute-id="firstName">John</object-attribute>
+        <object-attribute attribute-id="lastName">Doe</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="17af607ff5d35a82ec147482fe"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="SFRA_customObj_code_01"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="8290b3b19a72eda1176f3cbd67"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="e98454d54d8a561c796a522adf"/>
+
+    <custom-object type-id="NewsletterSubscription" object-id="salesforce@demandware.com">
+        <object-attribute attribute-id="firstName">Sales</object-attribute>
+        <object-attribute attribute-id="lastName">Force</object-attribute>
+    </custom-object>
+
+    <custom-object type-id="NewsletterSubscription" object-id="vladgeorgeardeleanu@yahoo.com">
+        <object-attribute attribute-id="firstName">Ardeleanu</object-attribute>
+        <object-attribute attribute-id="lastName">VladGeorge</object-attribute>
+    </custom-object>
+
+</custom-objects>

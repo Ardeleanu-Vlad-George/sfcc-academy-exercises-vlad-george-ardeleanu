@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="vladgeorgeardeleanu@yahoo.com" enabled-flag="true">
+        <credentials>
+            <external-id>51fed7c0-02a7-48e4-a53b-328ef674d86e</external-id>
+        </credentials>
+        <profile>
+            <first-name>Vlad-George</first-name>
+            <last-name>Ardeleanu</last-name>
+            <email>vladgeorgeardeleanu@yahoo.com</email>
+        </profile>
+    </user>
+
+</users>
