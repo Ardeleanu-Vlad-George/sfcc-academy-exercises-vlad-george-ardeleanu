@@ -13,8 +13,7 @@
         scope="page"/>
     <p style="color:red;">
         <strong>
-            ${Resource.msgf('best.deal.begin', 'pricing', null, discountPercentage)}
-            ${Resource.msg('best.deal.end', 'pricing', null)}
+            ${Resource.msgf('label.best.deal', 'pricing', null, discountPercentage)}
         </strong>
     </p>
 </isif>
