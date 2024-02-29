@@ -1,0 +1,19 @@
+<isif condition="${finalOrigPrice.list !== null}">
+    <isset
+        name="originalPrice"
+        value="${finalOrigPrice.list.decimalPrice}"
+        scope="page"/>
+    <isset
+        name="discountedPrice"
+        value="${finalOrigPrice.sales.decimalPrice}"
+        scope="page"/>
+    <isset
+        name="discountPercentage"
+        value="${Math.floor(100*(originalPrice - discountedPrice)/originalPrice)}"
+        scope="page"/>
+    <p style="color:red;">
+        <strong>
+            ${Resource.msgf('label.best.deal', 'pricing', null, discountPercentage)}
+        </strong>
+    </p>
+</isif>
