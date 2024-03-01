@@ -1,0 +1,5 @@
+<div>
+    <span style="background-color:yellow;color:black;">
+        ${Resource.msgf('warning.label.message', 'cart', null, pdict.threshhold)}
+    </span>
+</div>
