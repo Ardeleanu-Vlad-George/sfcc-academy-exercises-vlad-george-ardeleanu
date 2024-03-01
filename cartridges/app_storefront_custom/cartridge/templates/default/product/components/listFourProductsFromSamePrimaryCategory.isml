@@ -1,0 +1,5 @@
+<isloop items="${pdict._4extraProducts}" var="id">
+    <div class="col">
+        <isinclude url="${URLUtils.url('Tile-Show', 'pid', id, 'swatches', true, 'ratings', true)}" />
+    </div>
+</isloop>
