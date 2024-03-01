@@ -4654,6 +4654,14 @@
 
     <type-extension type-id="SitePreferences">
         <custom-attribute-definitions>
+            <attribute-definition attribute-id="Exer_03_cart_total_upper_limit">
+                <display-name xml:lang="x-default">Exercise 03 Cart Total Upper Limit</display-name>
+                <description xml:lang="x-default">The maximum limit that the cart total should not reach</description>
+                <type>double</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <default-value>200</default-value>
+            </attribute-definition>
             <attribute-definition attribute-id="GoogleVerificationTag">
                 <display-name xml:lang="x-default">GoogleVerificationTag - Content Attribute</display-name>
                 <type>string</type>
