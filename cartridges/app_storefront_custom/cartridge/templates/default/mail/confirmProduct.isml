@@ -1,0 +1,6 @@
+<p>${Resource.msg('mail.cart.confirm.label','mail',null)}</p>
+<img src="${pdict.img}" alt="${pdict.name}"/>
+<p>${Resource.msg('mail.cart.confirm.product.name','mail',null)}: <a href="${pdict.link}">${pdict.name}</a></p>
+<p>${Resource.msg('mail.cart.confirm.product.description','mail',null)}: ${pdict.description}</p>
+<p>${Resource.msgf('mail.cart.confirm.product.price','mail',null,pdict.price)}</p>
+<p>${Resource.msg('mail.cart.confirm.product.quantity','mail',null)}: ${pdict.quantity}</p>
